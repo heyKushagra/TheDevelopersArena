@@ -1,4 +1,11 @@
+
+#Asking for user Input 
 name=input("Enter your Name: ")
 age=input("Enter your Age: ")
 hobby=input("Enter your Hobby: ")
-print(" Welcome!",name," Your age is ", age, " and your hobby is ", hobby)
+
+#displaying introduction message
+print("\nHello", name + "!")
+print(f"You're {age} years old and you love {hobby}.")
+print("Welcome to the community!")
+
